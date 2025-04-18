@@ -8,7 +8,7 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 
 | Função         | Status   | Observações |
 |----------------|----------|-------------|
-| `ft_isalpha`   | [~]      |             |
+| `ft_isalpha`   | [ ]      |             |
 | `ft_isdigit`   | [ ]      |             |
 | `ft_isalnum`   | [ ]      |             |
 | `ft_isascii`   | [ ]      |             |
