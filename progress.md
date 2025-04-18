@@ -73,7 +73,7 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 - [ ] ❌ Não iniciada
 - [~] 🛠️ Em andamento
 - [x] ✅ Concluída
-- ⚠️ Adicione notas na coluna “Observações” para bugs, falhas de teste, ou comportamento inesperado
+- ⚠️ Observações para bugs, falhas de teste, ou comportamento inesperado
 
 ---
 
