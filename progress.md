@@ -13,7 +13,7 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 | `ft_isalnum`   | [ ]      |             |
 | `ft_isascii`   | [ ]      |             |
 | `ft_isprint`   | [ ]      |             |
-| `ft_strlen`    | [x]      |             |
+| `ft_strlen`    | ✅       |             |
 | `ft_memset`    | [ ]      |             |
 | `ft_bzero`     | [ ]      |             |
 | `ft_memcpy`    | [ ]      |             |
