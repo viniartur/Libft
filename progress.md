@@ -1,3 +1,13 @@
+<!-- ************************************************************************** -->
+<!--                                                                            -->
+<!--   ft_strlen.c                                                              -->
+<!--                                                                            -->
+<!--   Desenvolvido por: tmorais- e vvieira                                     -->
+<!--   Data de criação: 18/04/2025 às 13:34                                     -->
+<!--   Última atualização: 18/04/2025 às 13:56                                  -->
+<!--                                                                            -->
+<!-- ************************************************************************** -->
+
 # ✅ Checklist de Progresso - Libft
 
 Acompanhe abaixo o desenvolvimento das funções da sua libft.
