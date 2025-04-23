@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:55:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/23 13:52:06 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/04/23 15:17:22 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,8 @@ int ft_tolower(int c);
 
 int ft_toupper(int c);
 // ft_toupper Converte letra minúscula para maiúscula
+
+int ft_atoi(const char *nptr);
+//Converts the initial portion of the string pointed to by str to int.
 
 #endif

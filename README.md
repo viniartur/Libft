@@ -8,11 +8,10 @@ Este projeto tem como objetivo codificar uma biblioteca em C com funções comun
 - **Parte 2**: Implementação de funções adicionais, não presentes na `libc`.
 - **Parte bônus**: Funções para manipulação de listas encadeadas.
 --
-## 📈 Progresso geral
+## 📈 Progresso geral 
 
-**[█████---------------] 14% completo**
---
----
+**[███████-------------] 22% completo**
+
 
 ## ✅ Parte Mandatória
 
