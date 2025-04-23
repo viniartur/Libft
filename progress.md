@@ -13,6 +13,10 @@
 Acompanhe abaixo o desenvolvimento das funções da sua libft.
 
 ---
+## 📈 Progresso geral
+
+**[█████---------------] 14% completo**
+--
 
 ## 🔹 Parte 1 – Funções da LibC
 
@@ -20,7 +24,7 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 |----------------|----------|-------------|
 | `ft_isalpha`   | ✅       |             |
 | `ft_isdigit`   | ✅       |             |
-| `ft_isalnum`   | [ ]      |             |
+| `ft_isalnum`   | ✅       |             |
 | `ft_isascii`   | ✅       |             |
 | `ft_isprint`   | ✅       |             |
 | `ft_strlen`    | ✅       |             |
