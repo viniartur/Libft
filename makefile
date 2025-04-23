@@ -6,7 +6,7 @@
 #    By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/18 14:07:21 by vvieira           #+#    #+#              #
-#    Updated: 2025/04/18 14:23:28 by vvieira          ###   ########.fr        #
+#    Updated: 2025/04/22 23:18:24 by vvieira          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,8 @@ CC		=clang
 
 HEADER	=libft.h
 SRC 	= 	ft_strlen.c \
-			ft_
+			ft_isdigit.c \
+			ft_isprint.c \
 
 SRCBNS	=
 
