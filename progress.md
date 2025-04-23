@@ -13,10 +13,6 @@
 Acompanhe abaixo o desenvolvimento das funções da sua libft.
 
 ---
-## 📈 Progresso geral
-
-**[█████---------------] 14% completo**
---
 
 ## 🔹 Parte 1 – Funções da LibC
 
