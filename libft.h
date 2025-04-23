@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:55:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/18 13:56:14 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/04/23 13:52:06 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,8 @@ typedef struct s_list
 
 size_t	ft_strlen(const char *str);
 /*
-NAME
        strlen - calculate the length of a string
-
 SYNOPSIS
-       #include <string.h>
-
        size_t strlen(const char *s);
 
 DESCRIPTION
@@ -41,10 +37,26 @@ DESCRIPTION
 RETURN VALUE
        The strlen() function returns the number of bytes in 
 	   the string pointed to by s.
-
-ATTRIBUTES
-       For an explanation of the terms used in this section, 
-	   see attributes(7).
 */
+
+int	ft_isalpha(char c);
+// isalpha()
+// checks for an alphabetic character; in the standard "C" locale, it is equivalent to (isupper(c) || islower(c)).  In some locales, there may be additional characters for  which  isalpha()
+// is true—letters which are neither uppercase nor lowercase.
+
+int ft_isascii(int c);
+// isascii() checks whether c is a 7-bit unsigned char value that fits into the ASCII character set.
+
+int	ft_isdigit(char c);
+// ft_isdigit | Verifica se o caractere é um dígito (0–9)
+
+int	ft_isprint(char c);
+// ft_isprint  | Verifica se o caractere é imprimível (incluindo espaço).
+
+int ft_tolower(int c);
+// ft_tolower  Converte letra maiúscula para minúscula
+
+int ft_toupper(int c);
+// ft_toupper Converte letra minúscula para maiúscula
 
 #endif

@@ -21,7 +21,7 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 | `ft_isalpha`   | ✅       |             |
 | `ft_isdigit`   | ✅       |             |
 | `ft_isalnum`   | [ ]      |             |
-| `ft_isascii`   | [ ]      |             |
+| `ft_isascii`   | ✅       |             |
 | `ft_isprint`   | ✅       |             |
 | `ft_strlen`    | ✅       |             |
 | `ft_memset`    | [ ]      |             |
@@ -30,8 +30,8 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 | `ft_memmove`   | [ ]      |             |
 | `ft_strlcpy`   | [ ]      |             |
 | `ft_strlcat`   | [ ]      |             |
-| `ft_toupper`   | [ ]      |             |
-| `ft_tolower`   | [ ]      |             |
+| `ft_toupper`   | ✅       |             |
+| `ft_tolower`   | ✅       |             |
 | `ft_strchr`    | [ ]      |             |
 | `ft_strrchr`   | [ ]      |             |
 | `ft_strncmp`   | [ ]      |             |
