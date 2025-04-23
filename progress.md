@@ -19,10 +19,10 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 | Função         | Status   | Observações |
 |----------------|----------|-------------|
 | `ft_isalpha`   | [ ]      |             |
-| `ft_isdigit`   | [ ]      |             |
+| `ft_isdigit`   | ✅       |             |
 | `ft_isalnum`   | [ ]      |             |
 | `ft_isascii`   | [ ]      |             |
-| `ft_isprint`   | [ ]      |             |
+| `ft_isprint`   | ✅       |             |
 | `ft_strlen`    | ✅       |             |
 | `ft_memset`    | [ ]      |             |
 | `ft_bzero`     | [ ]      |             |
