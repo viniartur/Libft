@@ -24,8 +24,8 @@ Acompanhe abaixo o desenvolvimento das funções da sua libft.
 | `ft_isascii`   | ✅       |             |
 | `ft_isprint`   | ✅       |             |
 | `ft_strlen`    | ✅       |             |
-| `ft_memset`    | [ ]      |             |
-| `ft_bzero`     | [ ]      |             |
+| `ft_memset`    | 🛠️       |             |
+| `ft_bzero`     | 🛠️       |             |
 | `ft_memcpy`    | [ ]      |             |
 | `ft_memmove`   | [ ]      |             |
 | `ft_strlcpy`   | 🛠️       |             |

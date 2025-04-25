@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/18 13:55:25 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/23 15:17:22 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/04/25 15:52:10 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,20 +24,7 @@ typedef struct s_list
 }					t_list;
 
 size_t	ft_strlen(const char *str);
-/*
-       strlen - calculate the length of a string
-SYNOPSIS
-       size_t strlen(const char *s);
-
-DESCRIPTION
-       The strlen() function calculates the length 
-	   of the string pointed to by s, excluding the terminating 
-	   null byte ('\0').
-
-RETURN VALUE
-       The strlen() function returns the number of bytes in 
-	   the string pointed to by s.
-*/
+// strlen - calculate the length of a string
 
 int	ft_isalpha(char c);
 // isalpha()
@@ -61,5 +48,12 @@ int ft_toupper(int c);
 
 int ft_atoi(const char *nptr);
 //Converts the initial portion of the string pointed to by str to int.
+
+void	ft_memset(void *dest, int c, size_t	len);
+// The memset() function fills the first n bytes 
+// of the memory area pointed to by s with the constant byte c
+
+void	ft_bzero(void *s, size_t n);
+// ft_bzero Define os primeiros `n` bytes da memória como zero
 
 #endif
