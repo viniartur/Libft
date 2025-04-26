@@ -1,37 +1,47 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/24 14:46:01 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/25 23:37:49 by vvieira          ###   ########.fr       */
+/*   Created: 2025/04/25 23:08:33 by vvieira           #+#    #+#             */
+/*   Updated: 2025/04/25 23:31:10 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t	i;
+	char	*de;
+	char	*sr;
 
 	i = 0;
-	if (!dst || !src)
+	de = (char *)dest;
+	sr = (char *)src;
+	if (!src && !dest)
 		return (0);
-	while (src[i])
-		i++;
-	if (dstsize == 0)
-		return (i);
-	i = 0;
-	while (src[i] && i < dstsize - 1)
+	while (i < n)
 	{
-		dst[i] = src[i];
+		de[i] = sr[i];
 		i++;
 	}
-	dst[i] = '\0';
-	i = 0;
-	while (src[i])
-		i++;
-	return (i);
+	return (de);
 }
+
+// void *ft_memcpy(void *dest, const void *src, size_t n)
+// {
+// 	size_t	i;
+
+// 	if (!dest && !src)
+// 		return (0);
+// 	i = 0;
+// 	while (i < n)
+// 	{
+// 		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+// 		i++;
+// 	}
+// 	return(dest);
+// }

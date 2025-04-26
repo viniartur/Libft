@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 15:28:12 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/25 15:41:39 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/04/25 23:41:49 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_memset(void *dest, int c, size_t	len)
 {
-	size_t	i;
-	unsigned char	*ptr;
+	size_t				i;
+	unsigned char		*ptr;
 
 	i = 0;
 	ptr = (unsigned char *)dest;
@@ -24,7 +24,7 @@ void	ft_memset(void *dest, int c, size_t	len)
 		ptr[i] = (unsigned char)c;
 		i++;
 	}
-	return(ptr);
+	return (ptr);
 }
 
 // The memset() function fills the first n bytes 

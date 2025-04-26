@@ -6,7 +6,7 @@
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 13:56:39 by vvieira           #+#    #+#             */
-/*   Updated: 2025/04/25 15:50:33 by vvieira          ###   ########.fr       */
+/*   Updated: 2025/04/25 23:42:17 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	char	*str;
-	unsigned int	i;
+	char				*str;
+	unsigned int		i;
 
 	str = (char *)s;
 	i = 0;
