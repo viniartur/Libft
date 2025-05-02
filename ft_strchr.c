@@ -1,21 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/22 22:56:39 by vvieira           #+#    #+#             */
-/*   Updated: 2025/05/01 18:24:00 by vvieira          ###   ########.fr       */
+/*   Created: 2025/04/30 16:46:25 by vvieira           #+#    #+#             */
+/*   Updated: 2025/04/30 16:46:41 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+char	*ft_strchr(const char *s, int c)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+	char	*ptr;
+	int		i;
+	int		len_s;
+
+	len_s = 0;
+	while (s[len_s])
+		len_s++;
+	ptr = (char *)s;
+	i = 0;
+	while (i < len_s + 1)
+	{
+		if (ptr[i] == (char)c)
+			return (ptr + i);
+		i++;
+	}
+	return (ptr = 0);
 }
-// ft_isdigit | Verifica se o caractere é um dígito (0–9)

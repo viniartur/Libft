@@ -1,21 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/22 22:56:39 by vvieira           #+#    #+#             */
-/*   Updated: 2025/05/01 18:24:00 by vvieira          ###   ########.fr       */
+/*   Created: 2025/04/30 15:25:08 by vvieira           #+#    #+#             */
+/*   Updated: 2025/04/30 16:44:51 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+void *memmove(void *dst, const void *src, size_t n)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+	char	*ptr_d;
+	char	*ptr_s;
+	int		i;
+
+	ptr_d = (char *)dst;
+	ptr_s = (char *)src;
+	if (!src && !dst)
+		return (0);
+	if (src == dst)
+		return (dst);
+	if (dst > src)
+	{
+		i = n;
+		while (i)
+		{
+			ptr_d[i - 1] = ptr_s[i - 1];
+			i--;
+		}
+	}
+	else
+		ft_memcpy(dst, src, n);
+	return (ptr_d);
 }
-// ft_isdigit | Verifica se o caractere é um dígito (0–9)

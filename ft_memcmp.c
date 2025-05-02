@@ -1,21 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/22 22:56:39 by vvieira           #+#    #+#             */
-/*   Updated: 2025/05/01 18:24:00 by vvieira          ###   ########.fr       */
+/*   Created: 2025/05/01 20:08:33 by vvieira           #+#    #+#             */
+/*   Updated: 2025/05/01 20:08:52 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
+	unsigned char	*ptr1;
+	unsigned char	*ptr2;
+	size_t			i;
+
+	ptr1 = (unsigned char *)s1;
+	ptr2 = (unsigned char *)s2;
+	i = 0;
+	while (i < n)
+	{
+		if (ptr1[i] != ptr2[i])
+			return (ptr1[i] - ptr2[i]);
+		i++;
+	}
 	return (0);
 }
-// ft_isdigit | Verifica se o caractere é um dígito (0–9)

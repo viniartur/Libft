@@ -1,21 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vvieira <vvieira@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/22 22:56:39 by vvieira           #+#    #+#             */
-/*   Updated: 2025/05/01 18:24:00 by vvieira          ###   ########.fr       */
+/*   Created: 2025/05/01 20:09:37 by vvieira           #+#    #+#             */
+/*   Updated: 2025/05/01 20:09:55 by vvieira          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(char c)
+void	*ft_calloc(size_t count, size_t size)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+	char	*ret;
+	size_t	i;
+
+	ret = malloc(count * size);
+	if (!ret)
+		return (NULL);
+	i = 0;
+	while (i < count * size)
+	{
+		ret[i] = 0;
+		i++;
+	}
+	return ((void *)ret);
 }
-// ft_isdigit | Verifica se o caractere é um dígito (0–9)
